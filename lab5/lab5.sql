@@ -64,7 +64,7 @@ SELECT COUNT(cust_name) AS customer_count FROM customers;
 SELECT MIN(purch_amt) AS minimum_purchase_amount FROM orders;
 
 -- 7. Select customer with all information whose name ends with the letter 'b'
-SELECT * FROM customers WHERE cust_name LIKE '%b';
+SELECT * FROM customers WHERE cust_name LIKE 't%';
 
 -- 8. Select orders made by customers from 'New York'
 SELECT * FROM orders 
